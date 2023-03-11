@@ -3,7 +3,7 @@
   --primary-dark: #6d57df;
   --secondary-color: #7aeb60;
   --secondart-dark: #1d6d12;
-  --overlay: rgba(0, 0, 0, 0.9);
+  --overlay: rgba(0, 0, 0, 0.7);
 }
 
 * {
@@ -42,15 +42,17 @@ a {
   font-weight: 600;
   color: #fff;
   text-transform: uppercase;
-  background-color: var(--primary-color);
+  background-color: #50b339;
   border: 1px solid var(--primary-dark);
-  border-radius: 30%;
+  border-radius: 10px;
   cursor: pointer;
+  transition: 0.1s ease-in;
 }
 
 .button:hover {
   background: var(--primary-dark);
   border: 1px solid var(--primary-dark);
+  box-shadow: 0px 12px 0px 0px rgba(0, 0, 0, .2);
 }
 
 .line {

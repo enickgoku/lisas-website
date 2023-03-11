@@ -14,7 +14,7 @@ const Navbar = () => {
     <div className='header'>
       <nav className='navbar'>
         <a href='/' className='logo'>
-          <GiVacuumCleaner />
+          <GiVacuumCleaner size={50} style={{ color: '#ffffff' }} />
         </a>
         <div className='hamburger' onClick={handleClick}>
           {click ? 
