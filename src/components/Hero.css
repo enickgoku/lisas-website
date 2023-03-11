@@ -51,7 +51,7 @@
 .hero .button {
   margin: 1rem 0;
   width: 300px;
-  color: #333;
+  border: none;
 }
 
 @media screen and (max-width: 940px) {

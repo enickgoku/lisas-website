@@ -8,7 +8,7 @@ const About = () => {
       <div className='container'>
         {/* add image here */}
         <div className='col-2'>
-          <h1>About Us</h1>
+          <h2>About Us</h2>
           <span className='line'></span>
           <p>Stuff Here</p>
           <p>Stuff Here</p>
