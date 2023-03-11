@@ -14,13 +14,16 @@ const Navbar = () => {
     <div className='header'>
       <nav className='navbar'>
         <a href='/' className='logo'>
-          <GiVacuumCleaner size={50} style={{ color: '#ffffff' }} />
+          <GiVacuumCleaner size={60} style={{ color: '#ffffff' }} />
         </a>
         <div className='hamburger' onClick={handleClick}>
-          {click ? 
-          (<FaTimes size={30} style={{ color: '#ffffff' }} />)
-          : 
-          (<FaBars size={30} style={{ color: '#ffffff' }} />)}
+          {
+            click
+            ? 
+            (<FaTimes size={30} style={{ color: '#ffffff' }} />)
+            : 
+            (<FaBars size={30} style={{ color: '#ffffff' }} />)
+          }
         </div>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li className='nav-item'>
