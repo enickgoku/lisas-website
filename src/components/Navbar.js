@@ -7,11 +7,24 @@ import './Navbar.css'
 
 const Navbar = () => {
   const [click, setClick] = useState(false)
+  const [color, setColor] = useState(false)
 
   const handleClick = () => setClick(!click)
 
+  const closeMenu = () => setClick(false)
+
+  const handleNavColor = () => {
+    if (window.scrollY >= 80) {
+      setColor(true)
+    } else {
+      setColor(false)
+    }
+  }
+
+  window.addEventListener('scroll', handleNavColor)
+
   return (
-    <div className='header'>
+    <div className={color ? 'header header-bg' : 'header'}>
       <nav className='navbar'>
         <a href='/' className='logo'>
           <GiVacuumCleaner size={60} style={{ color: '#ffffff' }} />
@@ -27,22 +40,27 @@ const Navbar = () => {
         </div>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li className='nav-item'>
-            <a href='/'>
+            <a href='/' onClick={closeMenu}>
               Home
             </a>
           </li>
           <li className='nav-item'>
-            <a href='/about'>
+            <a href='#about' onClick={closeMenu}>
               About
             </a>
           </li>
           <li className='nav-item'>
-            <a href='/'>
+            <a href='#testimonials' onClick={closeMenu}>
               Testimonials
             </a>
           </li>
           <li className='nav-item'>
-            <a href='/'>
+            <a href='#services' onClick={closeMenu}>
+              Services
+            </a>
+          </li>
+          <li className='nav-item'>
+            <a href='/' onClick={closeMenu}>
               Contact
             </a>
           </li>

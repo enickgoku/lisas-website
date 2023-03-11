@@ -8,7 +8,8 @@
 
 .hero:before {
   content: '';
-  background-image: url('./images/hero.jpeg');
+  background: url('./images/hero.jpeg');
+  background-size: cover;
   height: 100%;
   width: 100%;
   position: absolute;

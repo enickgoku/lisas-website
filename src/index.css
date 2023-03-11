@@ -62,3 +62,9 @@ a {
   margin: 5px auto;
   background-color: var(--primary-color);
 }
+
+@media screen and (max-width: 940px) {
+  .app {
+    width: fit-content;
+  }
+}
