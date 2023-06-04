@@ -7,12 +7,10 @@ const Hero = () => {
     <div className="hero">
       <div className="content">
         <p>Call Me to Schedule an Appointment</p>
-        <p>1-800-555-5555</p>
-        <p>Extra Text</p>
-        <p>extra Text</p>
-        <button href="/" className="button">
-          Call for Pricing
-        </button>
+        <p>1-989-590-2384</p>
+        <a href="mailto:downanddirtycleaning1@yahoo.com">
+          <button className="button">Email for Pricing</button>
+        </a>
       </div>
     </div>
   );

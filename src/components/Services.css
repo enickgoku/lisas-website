@@ -4,8 +4,12 @@
   width: 100%;
 }
 
+a {
+  text-decoration: none;
+}
+
 .services .container {
-  width: 1240px;
+  width: 100%;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -43,5 +47,6 @@
     max-width: 100%;
     grid-template-columns: 1fr;
     grid-gap: 30px;
+    align-items: center;
   }
 }
