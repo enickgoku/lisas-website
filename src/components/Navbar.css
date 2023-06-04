@@ -28,7 +28,7 @@
 }
 
 li .nav-item {
-  font-size: large;
+  font-size: small;
 }
 
 .header .navbar .logo {
@@ -74,7 +74,7 @@ li .nav-item {
   .hamburger {
     display: block;
   }
-
+  
   .nav-menu {
     position: fixed;
     left: -100%;
@@ -93,10 +93,14 @@ li .nav-item {
   }
 
   .nav-item {
-    margin: 1.5rem 0;
+    margin-top: '3rem' !important;
   }
 
   .header .navbar .logo {
     width: 150px;
+  }
+
+  .nav-menu.active .nav-item {
+    margin-top: 3rem;
   }
 }

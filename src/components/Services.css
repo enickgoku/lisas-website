@@ -13,12 +13,15 @@ a {
   margin: auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  grid-gap: 30px;
 }
 
 .services .col-1 {
   padding: 1rem;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .services .col-2 p:nth-child(1) {
