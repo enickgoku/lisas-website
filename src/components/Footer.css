@@ -24,6 +24,7 @@
 
 .footer li a {
   color: #fff;
+  transition: 0.1s ease-in;
 }
 
 .footer li a:hover {

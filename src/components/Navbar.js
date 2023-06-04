@@ -58,7 +58,10 @@ const Navbar = () => {
             </a>
           </li>
           <li className="nav-item">
-            <a href="/" onClick={closeMenu}>
+            <a
+              href="mailto:downanddirtycleaning1@yahoo.com"
+              onClick={closeMenu}
+            >
               Contact
             </a>
           </li>

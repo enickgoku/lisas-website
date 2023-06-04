@@ -8,13 +8,19 @@ a {
   text-decoration: none;
 }
 
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .services .container {
   width: 100%;
   margin: auto;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
   align-items: center;
-  grid-gap: 30px;
+  justify-content: center;
 }
 
 .services .col-1 {
@@ -45,6 +51,12 @@ a {
   margin: auto;
 }
 
+.col-2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 @media screen and (max-width: 940px) {
   .services .container {
     max-width: 100%;
@@ -52,4 +64,5 @@ a {
     grid-gap: 30px;
     align-items: center;
   }
+  
 }

@@ -16,9 +16,18 @@ a {
   text-decoration: none;
 }
 
+.fb-icon-container {
+  display: flex;
+  align-items: center;
+}
+
+.fb-icon {
+  margin-left: 1rem;
+}
+
 .hero:before {
   content: '';
-  background: url('../../public/assets/hero.jpeg');
+  background: url('../assets/hero.jpeg');
   background-size: cover;
   height: 100vh;
   width: 100vw;
