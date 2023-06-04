@@ -1,15 +1,15 @@
-import React from 'react'
+import React from "react";
 
-import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import About from './components/About'
-import Testimonials from './components/Testimonials'
-import Services from './components/Services' 
-import Footer from './components/Footer'
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Testimonials from "./components/Testimonials";
+import Services from "./components/Services";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className='app'>
+    <div className="app">
       <Navbar />
       <Hero />
       <About />
@@ -17,7 +17,7 @@ function App() {
       <Services />
       <Footer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -8,7 +8,7 @@
 
 .hero:before {
   content: '';
-  background: url('./images/hero.jpeg');
+  background: url('../../public/assets/hero.jpeg');
   background-size: cover;
   height: 100%;
   width: 100%;
