@@ -7,11 +7,13 @@ const Hero = () => {
   return (
     <div className="hero">
       <div className="content">
-        <p>Call Me to Schedule an Appointment</p>
+        <p>Call to Schedule an Appointment</p>
         <p>1-352-600-4669</p>
+        <br></br>
         <a href="mailto:downanddirtycleaning1@yahoo.com">
           <button className="button">Email for Pricing</button>
         </a>
+        <br></br>
         <div className="fb-icon-container">
           Find us on Facebook!{" "}
           <a
@@ -24,6 +26,13 @@ const Hero = () => {
             </div>
           </a>
         </div>
+        <br></br>
+        <h3>Current Cities I Operate In</h3>
+        <br></br>
+        <p className="hero-paragraph">
+          Hudson, Spring Hill, Weeki Wachee, Hernando Beach, Homosassa, Crystal
+          River, Inverness, Dunnellon.{" "}
+        </p>
       </div>
     </div>
   );
