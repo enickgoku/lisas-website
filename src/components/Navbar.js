@@ -42,11 +42,11 @@ const Navbar = () => {
               Home
             </a>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <a href="#about" onClick={closeMenu}>
               About
             </a>
-          </li>
+          </li> */}
           <li className="nav-item">
             <a href="#testimonials" onClick={closeMenu}>
               Testimonials
