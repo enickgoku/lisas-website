@@ -27,7 +27,7 @@ const Hero = () => {
           </a>
         </div>
         <br></br>
-        <h3>Current Cities I Operate In</h3>
+        <h3>Current Cities We Operate In</h3>
         <br></br>
         <p className="hero-paragraph">
           Hudson, Spring Hill, Weeki Wachee, Hernando Beach, Homosassa, Crystal
