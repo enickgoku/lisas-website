@@ -1,6 +1,6 @@
 import React from "react";
 
-import AdImage from "../assets/image0.jpeg";
+import AdImage from "../assets/image1.jpeg";
 
 import "./Services.css";
 

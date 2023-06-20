@@ -2,7 +2,7 @@ import React from "react";
 
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-// import About from "./components/About";
+import About from "./components/About";
 import Testimonials from "./components/Testimonials";
 import Services from "./components/Services";
 import Footer from "./components/Footer";
@@ -12,7 +12,7 @@ function App() {
     <div className="app">
       <Navbar />
       <Hero />
-      {/* <About /> */}
+      <About />
       <Testimonials />
       <Services />
       <Footer />
